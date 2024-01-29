@@ -1,5 +1,5 @@
 import React from "react";
-import WomanImg from "../img/home/woman.png";
+import PortfoImg from "../img/home/portfol.png";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
@@ -26,7 +26,7 @@ const Home = () => {
           >
             <h1 className="h1">
               {" "}
-              photographer <br /> & videographer
+              Junior <br /> Web Developer
             </h1>
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
               Yogyakarta, Indonesia
@@ -47,7 +47,7 @@ const Home = () => {
               <motion.img
                 whileHover={{ scale: 1.1 }}
                 transition={transition1}
-                src={WomanImg}
+                src={PortfoImg}
                 alt="photogrph"
               />
             </motion.div>

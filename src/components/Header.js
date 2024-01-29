@@ -1,7 +1,7 @@
 import React from "react";
 
 import Social from "./Socials";
-import Logo from "../img/header/logo.svg";
+import Logo from "../img/header/logo1.svg";
 import MobileNav from "./MobileNav";
 import { Link } from "react-router-dom";
 
@@ -22,10 +22,10 @@ const Header = () => {
             Home
           </Link>
           <Link
-            to={"/about"}
+            to={"/skills"}
             className="text-[#696c6d] hover:text-primary transition"
           >
-            About
+            Skills
           </Link>
           <Link
             to={"/portfolio"}

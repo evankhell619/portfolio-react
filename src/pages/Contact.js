@@ -1,5 +1,5 @@
 import React from "react";
-import WomanImg from "../img/contact/woman.png";
+import PortfoImg from "../img/contact/portfoll.png";
 import { motion } from "framer-motion";
 import { transition1 } from "../transitions";
 
@@ -58,7 +58,7 @@ const Contact = () => {
             transition={{ transition: transition1, duration: 1.5 }}
             className="lg:flex-1"
           >
-            <img src={WomanImg} alt="" />
+            <img src={PortfoImg} alt="" />
           </motion.div>
         </div>
       </div>
