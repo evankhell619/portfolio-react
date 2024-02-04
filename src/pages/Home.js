@@ -28,6 +28,9 @@ const Home = () => {
               {" "}
               Junior <br /> Web Developer
             </h1>
+            <p className="text-[20px] lg:text-[30px] font-primary mb-4 lg:mb-4">
+              ReactJs | NodeJs
+            </p>
             <p className="text-[26px] lg:text-[36px] font-primary mb-4 lg:mb-12">
               Yogyakarta, Indonesia
             </p>
